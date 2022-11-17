@@ -7,9 +7,10 @@
 This repository contains scripts to train and deploy custom object detection models.
 
 - [Annotation](#Annotation)
-For annotation, we use [LabelImg] or [cvat.ai] for annotating images. The annotation files are saved in different format. Personally i would suggest to use cvat.ai for annotating images. It is easy to use and has a lot of features. Tip use `n` to mark new bounding box. Make sure classes names are string
-
-Datset conversion & data auggmentation scripts are added in the utils folders.
+    -For annotation, we use `LabelImg` or `cvat.ai` for annotating images. 
+    - The annotation files are saved in different formats. Personally i would suggest to use cvat.ai for annotating images. It is easy to use and has a lot of features. Tip use `n` to mark new bounding box. 
+    - Make sure classes names are string.
+    - Datset conversion & data auggmentation scripts are added in the utils folders.
 
 - [Setup](#setup)
 These notebooks are compatible with Google Colab. To use them, you will need to upload them to your Google Drive and open them in Google Colab.
@@ -21,6 +22,8 @@ For annotation tool, you can use labelImg for yolo format or VoTT for coco forma
     - Detectron2 --> COCO Dataset Format
 
 - [Comman issues Training](#training)
+    - If you are using colab, make sure you have GPU enabled.
+    
     Layout Parser
     - Darknet "make" error
         - Solution: Use the darket repo given in the notebook. other repos may not workon google colab.
