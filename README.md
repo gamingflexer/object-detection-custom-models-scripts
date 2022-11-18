@@ -1,5 +1,7 @@
 # Object detection custom models scripts
 
+<img src="https://img.shields.io/static/v1?label=YOLOv3&message=Done&color=YELLOW"/> <img src="https://img.shields.io/static/v1?label=LayoutParser&message=Done&color=GREEN"/>
+<img src="https://img.shields.io/static/v1?label=Detectron2&message=Done&color=PURPLE"/>
 
 ## Table of Contents
 
